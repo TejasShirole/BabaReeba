@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 const AnimatedText = ({ text, className = "" }) => {
   return (
-    <div className={`overflow-hidden ${className}`}>
+    <h1 className={className}>
       {text.split(" ").map((word, index) => (
         <motion.span
           key={index}
-          className="inline-block mr-3"
+          className="inline-block mr-3 text-white"
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
@@ -18,7 +18,7 @@ const AnimatedText = ({ text, className = "" }) => {
           {word}
         </motion.span>
       ))}
-    </div>
+    </h1>
   );
 };
 

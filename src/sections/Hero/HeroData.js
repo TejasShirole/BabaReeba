@@ -1,9 +1,12 @@
 const heroData = {
-  title: "Experience The Night",
+  title: "BABAREEBA CLUB",
+
   subtitle:
-    "Premium nightlife, unforgettable events and luxury entertainment.",
-  buttonText: "Explore More",
-  backgroundImage: "/images/hero.jpg",
+    "Where music, luxury, fine dining, and unforgettable nightlife come together. Experience the ultimate destination for entertainment.",
+
+  buttonText: "BOOK A TABLE",
+
+  backgroundImage: "/images/hero.png",
 };
 
 export default heroData;
